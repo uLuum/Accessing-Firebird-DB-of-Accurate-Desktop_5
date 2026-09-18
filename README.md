@@ -14,5 +14,5 @@ Karena tidak menggunakan data lama seutuhnya, proses ekstraksi ini sangat memban
 # Informasi Lain:
 - SYSDBA tidak menggunakan password default 'masterkey' >> Password dalam mengakses Database terbuat secara dinamis saat proses instalasi server Firebird.
 - Uses SYSDBA tidak bisa digunakan untuk mengakses databases >> SYSDBA memiliki role yang sama dengan Administrator, sehingga harus menggunakan user lain yang memiliki hak akses setara.
-- Firebird masih bisa menambahkan user baru selain SYSDBA agar bisa menemukan user yang memiliki role setara SYSDBA.
+- Firebird masih bisa menambahkan user baru selain SYSDBA agar bisa menemukan user yang memiliki role setara SYSDBA. Setelah menemukannya, bisa memperbarui password user tersebut agar bisa mengakses database.
 - Ubah nama file (.gdb) sesuai database yang dimiliki serta user yang memiliki role setara agar bisa membuka aksesnya.
