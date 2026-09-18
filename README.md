@@ -1,8 +1,8 @@
 # Accessing-Firebird-DB-of-Accurate-Desktop_5
 Memanfaatkan Lingkungan Colab dan Python untuk membuka akses database Firebird (.gdb) milik Accurate Desktop v5.
 
-Tujuan dari proyek ini adalah untuk mengekstraksi database Firebird berekstensi.gdb dari Accurate Desktop v5.
-Hasil ujicoba menunjukkan bahwa Accurate Desktop v5 yang digunakan masih menggunakan versi 2.1 dengan ODS 11.1, dan versi ini sudah tidak didukung oleh versi Firebird terbaru.
+Tujuan dari proyek ini adalah untuk mengekstraksi database Firebird berekstensi .gdb dari Accurate Desktop v5.
+Hasil ujicoba menunjukkan bahwa database Accurate Desktop v5 masih menggunakan versi 2.1 dengan ODS 11.1, dan versi ini sudah tidak didukung oleh versi Firebird terbaru.
 Karena itu, untuk mendapatkan akses ke databasenya diperlukan jenis server harus diekstraksi serta menggunakan user yang tepat.
 
 Menggunakan lingkungan Colab, saya menginstall libncurses5/libtinfo5 secara langsung menggunakan dpkg.
